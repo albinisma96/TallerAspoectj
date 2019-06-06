@@ -33,7 +33,7 @@ public class Producto extends Entidad {
 	
 	public void consultar(String producto) {
 			
-			System.out.println("Consultando");
+			System.out.println("consultando: ");
 			// TODO: Utilizar el Frame mensaje para mostrar el nombre de lo que se ha consultado		
 		
 	}

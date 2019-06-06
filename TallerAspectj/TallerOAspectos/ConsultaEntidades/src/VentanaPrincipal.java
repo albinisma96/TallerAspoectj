@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class VentanaPrincipal {
-
+	 
 	private JFrame frame;
 	static VentanaPrincipal window;
 
