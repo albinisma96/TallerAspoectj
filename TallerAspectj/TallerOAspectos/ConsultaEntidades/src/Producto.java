@@ -33,7 +33,9 @@ public class Producto extends Entidad {
 	
 	public void consultar(String producto) {
 			
-			System.out.println("consultando: ");
+			System.out.println("consultando: "+producto);
+			
+			
 			// TODO: Utilizar el Frame mensaje para mostrar el nombre de lo que se ha consultado		
 		
 	}
@@ -46,9 +48,10 @@ public class Producto extends Entidad {
 			frame.getContentPane().add(lblNewLabel);
 			
 			lblNewLabel.addMouseListener(new MouseListener() {
-
+				
 				@Override
 				public void mouseClicked(MouseEvent e) {
+					Entidad.data=lblNewLabel.getText();
 					consultar(lblNewLabel.getText());
 				}
 				@Override
